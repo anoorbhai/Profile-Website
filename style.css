@@ -45,7 +45,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.1em;
     padding: 0.5em 0.7em;
-    border-radius: 5px;
+    border-radius: 0.2em;
 }
 
 nav ul li a:hover, nav ul li a:focus {
@@ -133,19 +133,19 @@ align-self: flex-start;
 .subtitle {
     font-size: 1rem;
     color: #888;
-    margin-bottom: 5px;
+    margin-bottom: 0.2em;
 }
 
 .name {
     font-size: 2rem;
     color: #222;
-    margin-bottom: 15px;
+    margin-bottom: 0.2em;
 }
 
 .description {
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 0.2em;
 }
 
 
