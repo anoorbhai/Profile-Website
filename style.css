@@ -1,0 +1,147 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+header {
+    background: #f9f9f9;
+    color: black;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+nav {
+    background: #444;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5em 0.7em;
+    border-radius: 5px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: #00bcd4;
+    background: #555;
+}
+
+main {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.tab-content:target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{
+    color:#f9f9f9;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 0.5em 0;
+    text-align: center;
+    margin-top: 1em;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin: 0.5em;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    align-self: flex-start;
+  height: 5em;
+  width: 5em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.profile-content {
+    flex: 1;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
