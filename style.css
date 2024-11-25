@@ -17,6 +17,8 @@ header {
     background: #f9f9f9;
     color: black;
     text-align: center;
+    top: 0;
+    left: 0;
     z-index: 1000;
     width: 100%;
 }
@@ -59,8 +61,9 @@ main {
 .tab-content {
     display: none;
     animation: fadeIn 0.5s;
-        margin: 0.5em;
+    margin: 0.5em;
 }
+
 
 .tab-content:target {
     display: flex;
